@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="left">HODLINFO</div>
+        <div class="middle">
+            <select id="mainDropdown">
+                <option value="INR">INR</option>
+                <option value="TRX">TRX</option>
+            </select>
+            <select id="subDropdown" disabled></select>
+            <button id="buyButton" disabled>BUY TRX</button>
+        </div>
+        <div class="right">
+            <div id="countdown" class="countdown">60</div>
+            <button id="telegramButton">Telegram</button>
+            <button id="darkModeButton">Dark Mode</button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Top 10 Cryptos</h1>
+        <ul id="cryptoList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

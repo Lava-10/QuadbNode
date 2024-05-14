@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar .left, .navbar .middle, .navbar .right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar select, .navbar button {
+    margin: 0 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container {
+    margin: 20px;
+}
+
+.countdown {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #f00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-right: 20px;
+}
+
+#cryptoList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#cryptoList li {
+    margin-bottom: 10px;
+}
+
+#cryptoList li span {
+    font-weight: bold;
+    margin-right: 5px;
+}
